@@ -3,7 +3,7 @@
     "1": {
       "Name": "Main",
       "Group": "Servers",
-      "Host": "db",
+      "Host": "pgsql",
       "Port": 5432,
       "MaintenanceDB": "postgres",
       "Username": "root",
