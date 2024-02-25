@@ -180,3 +180,1556 @@ LINE 1: SELECT * FROM users;
  7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:01:22 --> Error: Class 'Models\Localita' not found
+in APPPATH/Controllers/Signup.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:01:51 --> Error: Class 'Models\Localita' not found
+in APPPATH/Controllers/Signup.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:02:42 --> Error: Class 'App\Models\Localita' not found
+in APPPATH/Controllers/Signup.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:04:16 --> Error: Class 'Models\Localita' not found
+in APPPATH/Controllers/Signup.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:05:01 --> Error: Class 'Models\Localita' not found
+in APPPATH/Controllers/Signup.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:06:33 --> Error: Class 'Models\Localita' not found
+in APPPATH/Controllers/Signup.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:07:41 --> Error: Class 'Models\Localita' not found
+in APPPATH/Controllers/Signup.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:11:38 --> ParseError: syntax error, unexpected end of file
+in APPPATH/Views/signup.php on line 32.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH/Controllers/Signup.php(15): view('signup', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:12:01 --> ParseError: syntax error, unexpected end of file
+in APPPATH/Views/signup.php on line 32.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH/Controllers/Signup.php(16): view('signup', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 15:13:22 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;codiceFiscale&quot; of relation &quot;utenti&quot; does not exist
+LINE 1: INSERT INTO &quot;utenti&quot; (&quot;codiceFiscale&quot;, &quot;nome&quot;, &quot;cognome&quot;, &quot;t...
+                              ^ in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #138, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(24): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 15:13:22 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;codiceFiscale&quot; of relation &quot;utenti&quot; does not exist
+LINE 1: INSERT INTO &quot;utenti&quot; (&quot;codiceFiscale&quot;, &quot;nome&quot;, &quot;cognome&quot;, &quot;t...
+                              ^
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codiceFiscale", "nome", "cognome", "telefono", "email", "password") VALUES (:codiceFiscale:, :nome:, :cognome:, :telefono:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(24): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:13:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;codiceFiscale&quot; of relation &quot;utenti&quot; does not exist
+LINE 1: INSERT INTO &quot;utenti&quot; (&quot;codiceFiscale&quot;, &quot;nome&quot;, &quot;cognome&quot;, &quot;t...
+                              ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codiceFiscale", "nome", "cognome", "telefono", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codiceFiscale", "nome", "cognome", "telefono", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codiceFiscale", "nome", "cognome", "telefono", "email", "password") VALUES (:codiceFiscale:, :nome:, :cognome:, :telefono:, :email:, :password:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(24): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:13:22 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;codiceFiscale&quot; of relation &quot;utenti&quot; does not exist
+LINE 1: INSERT INTO &quot;utenti&quot; (&quot;codiceFiscale&quot;, &quot;nome&quot;, &quot;cognome&quot;, &quot;t...
+                              ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;codiceFiscale&quot; of relation &quot;utenti&quot; does not exist
+LINE 1: INSERT INTO &quot;utenti&quot; (&quot;codiceFiscale&quot;, &quot;nome&quot;, &quot;cognome&quot;, &quot;t...
+                              ^', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codiceFiscale", "nome", "cognome", "telefono", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codiceFiscale", "nome", "cognome", "telefono", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codiceFiscale", "nome", "cognome", "telefono", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codiceFiscale", "nome", "cognome", "telefono", "email", "password") VALUES (:codiceFiscale:, :nome:, :cognome:, :telefono:, :email:, :password:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(24): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 15:13:45 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;codicefiscale&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (null, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, null, null, null). in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #138, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(24): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 15:13:45 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;codicefiscale&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (null, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, null, null, null).
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("nome", "cognome", "telefono", "email", "password") VALUES (:nome:, :cognome:, :telefono:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(24): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:13:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;codicefiscale&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (null, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, null, null, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("nome", "cognome", "telefono", "email", "password") VALUES (\'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("nome", "cognome", "telefono", "email", "password") VALUES (\'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("nome", "cognome", "telefono", "email", "password") VALUES (:nome:, :cognome:, :telefono:, :email:, :password:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(24): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:13:45 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;codicefiscale&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (null, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, null, null, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  null value in column &quot;codicefiscale&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (null, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, null, null, null).', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("nome", "cognome", "telefono", "email", "password") VALUES (\'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("nome", "cognome", "telefono", "email", "password") VALUES (\'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("nome", "cognome", "telefono", "email", "password") VALUES (\'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("nome", "cognome", "telefono", "email", "password") VALUES (:nome:, :cognome:, :telefono:, :email:, :password:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(24): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 15:14:20 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, null, null, null). in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #138, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(24): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 15:14:20 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, null, null, null).
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(24): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:14:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, null, null, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :email:, :password:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(24): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:14:20 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, null, null, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, null, null, null).', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'christiansoriani98@gmail.com\', \'test\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :email:, :password:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(24): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:22:53 --> ErrorException: Undefined variable: localita
+in APPPATH/Views/signup.php on line 15.
+ 1 APPPATH/Views/signup.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: localita', '/var/www/html/app/Views/signup.php', 15, [])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(32): view('signup')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:24:18 --> ErrorException: Undefined variable: localita
+in APPPATH/Views/signup.php on line 15.
+ 1 APPPATH/Views/signup.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: localita', '/var/www/html/app/Views/signup.php', 15, [])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(32): view('signup')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:24:32 --> ErrorException: Undefined variable: localita
+in APPPATH/Views/signup.php on line 15.
+ 1 APPPATH/Views/signup.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: localita', '/var/www/html/app/Views/signup.php', 15, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(32): view('signup', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:32:22 --> ArgumentCountError: Too few arguments to function App\Controllers\Signup::index(), 0 passed in /var/www/html/system/CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH/Controllers/Signup.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:34:50 --> ParseError: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH/Views/signup.php on line 34.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH/Controllers/Signup.php(16): view('signup', [...])
+ 4 APPPATH/Controllers/Signup.php(46): App\Controllers\Signup->index([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:38:05 --> Error: Call to undefined method App\Controllers\Signup::getErrors()
+in APPPATH/Controllers/Signup.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:38:57 --> Error: Call to a member function getErrors() on bool
+in APPPATH/Controllers/Signup.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:47:53 --> ErrorException: Array to string conversion
+in APPPATH/Views/signup.php on line 9.
+ 1 APPPATH/Views/signup.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', '/var/www/html/app/Views/signup.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(17): view('signup', [...])
+ 6 APPPATH/Controllers/Signup.php(46): App\Controllers\Signup->index([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:48:19 --> ErrorException: Undefined variable: messaggio
+in APPPATH/Views/signup.php on line 9.
+ 1 APPPATH/Views/signup.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: messaggio', '/var/www/html/app/Views/signup.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(17): view('signup', [...])
+ 6 APPPATH/Controllers/Signup.php(46): App\Controllers\Signup->index([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:49:11 --> ErrorException: Undefined variable: errore
+in APPPATH/Views/signup.php on line 13.
+ 1 APPPATH/Views/signup.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: errore', '/var/www/html/app/Views/signup.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(17): view('signup', [...])
+ 6 APPPATH/Controllers/Signup.php(46): App\Controllers\Signup->index([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:50:11 --> ErrorException: Undefined variable: messaggio
+in APPPATH/Views/signup.php on line 9.
+ 1 APPPATH/Views/signup.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: messaggio', '/var/www/html/app/Views/signup.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(17): view('signup', [...])
+ 6 APPPATH/Controllers/Signup.php(46): App\Controllers\Signup->index([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:50:15 --> ErrorException: Undefined variable: messaggio
+in APPPATH/Views/signup.php on line 9.
+ 1 APPPATH/Views/signup.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: messaggio', '/var/www/html/app/Views/signup.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(17): view('signup', [...])
+ 6 APPPATH/Controllers/Signup.php(46): App\Controllers\Signup->index([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:50:34 --> ErrorException: Undefined variable: messaggio
+in APPPATH/Views/signup.php on line 9.
+ 1 APPPATH/Views/signup.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: messaggio', '/var/www/html/app/Views/signup.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(17): view('signup', [...])
+ 6 APPPATH/Controllers/Signup.php(46): App\Controllers\Signup->index([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:50:40 --> ErrorException: Undefined variable: messaggio
+in APPPATH/Views/signup.php on line 9.
+ 1 APPPATH/Views/signup.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: messaggio', '/var/www/html/app/Views/signup.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(17): view('signup', [...])
+ 6 APPPATH/Controllers/Signup.php(46): App\Controllers\Signup->index([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:52:18 --> ErrorException: Undefined variable: messaggio
+in APPPATH/Views/signup.php on line 9.
+ 1 APPPATH/Views/signup.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: messaggio', '/var/www/html/app/Views/signup.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(17): view('signup', [...])
+ 6 APPPATH/Controllers/Signup.php(46): App\Controllers\Signup->index([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:53:18 --> ErrorException: Undefined variable: messaggio
+in APPPATH/Views/signup.php on line 9.
+ 1 APPPATH/Views/signup.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: messaggio', '/var/www/html/app/Views/signup.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(17): view('signup', [...])
+ 6 APPPATH/Controllers/Signup.php(46): App\Controllers\Signup->index([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 15:53:38 --> ErrorException: Undefined variable: errore
+in APPPATH/Views/signup.php on line 14.
+ 1 APPPATH/Views/signup.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: errore', '/var/www/html/app/Views/signup.php', 14, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(17): view('signup', [...])
+ 6 APPPATH/Controllers/Signup.php(47): App\Controllers\Signup->index([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:03:40 --> Error: Call to a member function getRandomName() on null
+in APPPATH/Controllers/Signup.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:03:57 --> Error: Call to a member function setVar() on array
+in APPPATH/Controllers/Signup.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:04:35 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;stato&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, null, null). in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #151, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(43): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:04:35 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;stato&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, null, null).
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:04:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;stato&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, null, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(43): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:04:35 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;stato&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, null, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  null value in column &quot;stato&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, null, null).', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(43): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:05:03 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null). in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #151, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(43): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:05:03 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:05:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(43): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:05:03 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(43): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:05:52 --> ErrorException: Undefined variable: errori
+in APPPATH/Views/signup.php on line 16.
+ 1 APPPATH/Views/signup.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: errori', '/var/www/html/app/Views/signup.php', 16, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/app/Views/signup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 5 APPPATH/Controllers/Signup.php(17): view('signup', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:06:19 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null). in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #151, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(46): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:06:19 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:06:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(46): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:06:19 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(46): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:11:46 --> Error: Call to undefined method CodeIgniter\HTTP\IncomingRequest::setVar()
+in APPPATH/Controllers/Signup.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:14:54 --> ParseError: syntax error, unexpected ')'
+in APPPATH/Controllers/Signup.php on line 47.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/app/Controllers/Signup.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Signup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Signup')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Signup')
+ 5 SYSTEMPATH/CodeIgniter.php(899): class_exists('\\App\\Controllers\\Signup', true)
+ 6 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:15:07 --> ErrorException: Attempt to assign property 'foto' of non-object
+in APPPATH/Controllers/Signup.php on line 46.
+ 1 APPPATH/Controllers/Signup.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'foto\' of non-object', '/var/www/html/app/Controllers/Signup.php', 46, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:19:22 --> Error: Call to a member function hash() on null
+in APPPATH/Controllers/Signup.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:21:55 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null). in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #151, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(46): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:21:55 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:21:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(46): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:21:56 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(46): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:24:10 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null). in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #150, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(46): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:24:10 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:24:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(46): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:24:10 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  null value in column &quot;foto&quot; of relation &quot;utenti&quot; violates not-null constraint
+DETAIL:  Failing row contains (SRNCRS98H19A662P, Christian, Soriani, 0.00, christiansoriani98@gmail.com, test, 3495200507, 1, 1, null).', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'test\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(46): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:25:11 --> ErrorException: pg_query(): Query failed: ERROR:  lastval is not yet defined in this session in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #150, 'SELECT LASTVAL(...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT LASTVAL(...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT LASTVAL(...')
+#4 /var/www/html/system/Database/Postgre/Connection.php(480): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL(...')
+#5 /var/www/html/system/Model.php(331): CodeIgniter\Database\Postgre\Connection->insertID()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(47): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:25:11 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  lastval is not yet defined in this session
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/Postgre/Connection.php(480): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL() AS ins_id')
+ 2 SYSTEMPATH/Model.php(331): CodeIgniter\Database\Postgre\Connection->insertID()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(47): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:25:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  lastval is not yet defined in this session
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT LASTVAL() AS ins_id')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT LASTVAL() AS ins_id')
+ 3 SYSTEMPATH/Database/Postgre/Connection.php(480): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL() AS ins_id')
+ 4 SYSTEMPATH/Model.php(331): CodeIgniter\Database\Postgre\Connection->insertID()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(47): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:25:11 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  lastval is not yet defined in this session
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  lastval is not yet defined in this session', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'SELECT LASTVAL() AS ins_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT LASTVAL() AS ins_id')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT LASTVAL() AS ins_id')
+ 5 SYSTEMPATH/Database/Postgre/Connection.php(480): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL() AS ins_id')
+ 6 SYSTEMPATH/Model.php(331): CodeIgniter\Database\Postgre\Connection->insertID()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(47): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:28:51 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists. in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #129, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(47): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:28:51 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(47): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:28:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878531_ea7c80b209dd340b5469.jpeg\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878531_ea7c80b209dd340b5469.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(47): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:28:51 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878531_ea7c80b209dd340b5469.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878531_ea7c80b209dd340b5469.jpeg\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878531_ea7c80b209dd340b5469.jpeg\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(47): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:28:59 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists. in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #150, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(47): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:28:59 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(47): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:28:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878539_62ce8ee6f8d4b81a3b58.jpeg\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878539_62ce8ee6f8d4b81a3b58.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(47): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:28:59 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878539_62ce8ee6f8d4b81a3b58.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878539_62ce8ee6f8d4b81a3b58.jpeg\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878539_62ce8ee6f8d4b81a3b58.jpeg\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(47): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:29:52 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists. in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #150, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(48): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:29:52 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:29:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878592_b4c43be6e928227819b3.jpeg\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878592_b4c43be6e928227819b3.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:29:52 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878592_b4c43be6e928227819b3.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878592_b4c43be6e928227819b3.jpeg\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878592_b4c43be6e928227819b3.jpeg\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:30:02 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists. in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #129, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(48): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:30:02 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:30:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878602_d250165cf38b7ad9a2ff.jpeg\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878602_d250165cf38b7ad9a2ff.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:30:02 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878602_d250165cf38b7ad9a2ff.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878602_d250165cf38b7ad9a2ff.jpeg\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878602_d250165cf38b7ad9a2ff.jpeg\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:30:10 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists. in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #150, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(48): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:30:10 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:30:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878610_663b3cb09c63cce07b53.jpeg\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878610_663b3cb09c63cce07b53.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:30:10 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878610_663b3cb09c63cce07b53.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878610_663b3cb09c63cce07b53.jpeg\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878610_663b3cb09c63cce07b53.jpeg\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:30:47 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists. in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #150, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(48): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:30:47 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:30:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878647_010b7640a5c21e3e15e7.jpeg\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878647_010b7640a5c21e3e15e7.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:30:47 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878647_010b7640a5c21e3e15e7.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878647_010b7640a5c21e3e15e7.jpeg\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878647_010b7640a5c21e3e15e7.jpeg\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:32:18 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists. in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #150, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(48): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:32:18 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:32:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878738_fbe18e8bacb789fa4612.jpeg\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878738_fbe18e8bacb789fa4612.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:32:18 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878738_fbe18e8bacb789fa4612.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878738_fbe18e8bacb789fa4612.jpeg\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878738_fbe18e8bacb789fa4612.jpeg\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:32:31 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists. in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #150, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(48): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:32:31 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:32:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878751_8f6afa8fcf19944d8ec0.jpeg\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878751_8f6afa8fcf19944d8ec0.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:32:31 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878751_8f6afa8fcf19944d8ec0.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878751_8f6afa8fcf19944d8ec0.jpeg\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878751_8f6afa8fcf19944d8ec0.jpeg\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:33:01 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists. in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #129, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(48): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:33:01 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:33:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878781_e9d42f86194eaa06fb07.jpeg\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878781_e9d42f86194eaa06fb07.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:33:02 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878781_e9d42f86194eaa06fb07.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878781_e9d42f86194eaa06fb07.jpeg\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878781_e9d42f86194eaa06fb07.jpeg\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:33:06 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists. in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #150, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(48): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:33:06 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:33:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878786_6a72646c0fa4ba75fbe6.jpeg\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878786_6a72646c0fa4ba75fbe6.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:33:06 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878786_6a72646c0fa4ba75fbe6.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878786_6a72646c0fa4ba75fbe6.jpeg\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878786_6a72646c0fa4ba75fbe6.jpeg\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:36:30 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists. in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #150, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(48): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:36:30 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:36:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878990_247df45ca0f5af6ac760.jpeg\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878990_247df45ca0f5af6ac760.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:36:30 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878990_247df45ca0f5af6ac760.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878990_247df45ca0f5af6ac760.jpeg\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708878990_247df45ca0f5af6ac760.jpeg\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-25 16:36:48 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists. in /var/www/html/system/Database/Postgre/Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/s...', 187, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(187): pg_query(Resource id #150, 'INSERT INTO "ut...')
+#2 /var/www/html/system/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ut...')
+#3 /var/www/html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ut...')
+#4 /var/www/html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ut...', Array, false)
+#5 /var/www/html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 /var/www/html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 /var/www/html/app/Controllers/Signup.php(48): CodeIgniter\Model->insert(Array)
+#9 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+#10 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#11 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-25 16:36:48 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:36:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 192.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708879008_e74cee3dffcd8a1cdff6.jpeg\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708879008_e74cee3dffcd8a1cdff6.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 16:36:48 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;utenti_pkey&quot;
+DETAIL:  Key (codicefiscale)=(SRNCRS98H19A662P) already exists.', '/var/www/html/system/Database/Postgre/Connection.php', 187, [...])
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708879008_e74cee3dffcd8a1cdff6.jpeg\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708879008_e74cee3dffcd8a1cdff6.jpeg\')')
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (\'SRNCRS98H19A662P\', \'Christian\', \'Soriani\', \'3495200507\', \'1\', \'christiansoriani98@gmail.com\', \'9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\', \'1708879008_e74cee3dffcd8a1cdff6.jpeg\')')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "utenti" ("codicefiscale", "nome", "cognome", "telefono", "localitacompetenza", "email", "password", "foto") VALUES (:codicefiscale:, :nome:, :cognome:, :telefono:, :localitacompetenza:, :email:, :password:, :foto:)', [...], false)
+ 6 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH/Controllers/Signup.php(48): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Signup->insertUtente()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
