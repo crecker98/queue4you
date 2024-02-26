@@ -13,7 +13,8 @@ class Signup extends BaseController
         $localita = new Localita();
         $data['localita'] = $localita->findAll();
 
-        $content = view("header");
+        $header = new Header();
+        $content = $header->index();
         $content .= view('signup', $data);
         $content .= view("footer");
         return $content;
@@ -27,7 +28,8 @@ class Signup extends BaseController
         $registrationRules = [
             'nome' => 'required|min_length[3]|max_length[20]',
             'cognome' => 'required|min_length[3]|max_length[20]',
-            'email' => 'required|valid_email',
+            'email' => 'required|valid_email|is_unique[utenti.email]',
+            'codicefiscale' => 'required|exact_length[16]|is_unique[utenti.codicefiscale]',
             'password' => 'required',
             'localitacompetenza' => 'required',
             'telefono' => 'required|numeric|exact_length[10]',
@@ -39,7 +41,7 @@ class Signup extends BaseController
         if ($validation->run($this->request->getPost())) {
             $file = $this->request->getFile('foto');
             $newName = $file->getRandomName();
-            $file->move(WRITEPATH . 'uploads', $newName);
+            $file->move(ROOTPATH . 'public/uploads', $newName);
             $utente = $this->request->getPost();
             $utente['foto'] = $newName;
             $utente['password'] = hash("sha256", ($this->request->getPost('password')));

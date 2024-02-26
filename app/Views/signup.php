@@ -34,10 +34,9 @@
                                                  required=""><span>Foto profilo</span></div>
                         <div class="mb-3"><select class="form-select" name="localitacompetenza" required="">
                                 <option value="" selected="" disabled>Seleziona una località</option>
-                                <?php foreach ($localita
-
-                                as $row) ?>
+                                <?php foreach ($localita as $row) { ?>
                                 <option value="<?= $row->codice ?>"><?= $row->descrizione ?></option>
+                                <?php } ?>
                             </select><span>Località di competenza</span></div>
                         <div class="mb-3"><input class="shadow-sm form-control" type="email" name="email"
                                                  placeholder="Email" required=""></div>
@@ -50,7 +49,7 @@
                         </div>
                     </form>
                 <?php } ?>
-                <p class="text-muted">Sei già registrato? <a href="login.html">Log in&nbsp;<svg
+                <p class="text-muted">Sei già registrato? <a href="<?= base_url("login") ?>">Log in&nbsp;<svg
                                 xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
                                 stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
                                 stroke-linejoin="round" class="icon icon-tabler icon-tabler-arrow-narrow-right">

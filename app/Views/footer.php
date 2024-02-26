@@ -7,8 +7,6 @@
     </div>
 </footer>
 <script src="<?= base_url("assets/bootstrap/js/bootstrap.min.js") ?>"></script>
-<script src="<?= base_url("assets/js/Profile-Edit-Form-profile.js") ?>"></script>
-<script src="<?= base_url("assets/js/startup-modern.js") ?>"></script>
 </body>
 
 </html>
