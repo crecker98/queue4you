@@ -69,7 +69,6 @@ class Annunci extends BaseController
         } else {
             return $this->index();
         }
-
     }
 
 }

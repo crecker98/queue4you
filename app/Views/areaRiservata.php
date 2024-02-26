@@ -181,15 +181,6 @@
                         <div class="card shadow">
                             <div class="card-header d-flex flex-wrap justify-content-center align-items-center justify-content-sm-between gap-3">
                                 <h5 class="display-6 text-nowrap text-capitalize mb-0">Commissioni</h5>
-                                <div class="input-group input-group-sm w-auto"><input
-                                            class="form-control form-control-sm" type="text">
-                                    <button class="btn btn-outline-primary btn-sm" type="button">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                             fill="currentColor" viewBox="0 0 16 16" class="bi bi-search mb-1">
-                                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"></path>
-                                        </svg>
-                                    </button>
-                                </div>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">

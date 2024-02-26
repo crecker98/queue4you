@@ -19,12 +19,12 @@ class Annunci extends Model
 
     public function getAllAnnunciAttivi(): array
     {
-        return $this->db->query('SELECT *, localita.descrizione desc FROM annunci, localita where annunci.localita = localita.codice and annunci.codice not in (select annuncio from candidature where stato = 1) ORDER BY dataorainizionecessita ASC')->getResultObject();
+        return $this->db->query('SELECT *, localita.descrizione desc FROM annunci, localita where annunci.localita = localita.codice and annunci.codice in (select annuncio from candidature where stato = 0) and dataorainizionecessita >= now() ORDER BY dataorainizionecessita ASC')->getResultObject();
     }
 
     public function getAllAnnunciAttiviFiltrati($localita = null, $prezzoMinimo = null, $dataInizio = null, $dataFine = null): array
     {
-        $query = "SELECT *, localita.descrizione desc FROM annunci, localita where annunci.localita = localita.codice and annunci.codice not in (select distinct annuncio from candidature where stato = 0)";
+        $query = "SELECT *, localita.descrizione desc FROM annunci, localita where annunci.localita = localita.codice and annunci.codice in (select distinct annuncio from candidature where stato = 0) and dataorainizionecessita >= now() ";
         if ($localita != null) {
             $query .= " and localita.codice = $localita";
         }
