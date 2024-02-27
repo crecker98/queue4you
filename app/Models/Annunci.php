@@ -41,4 +41,23 @@ class Annunci extends Model
         return $this->db->query($query)->getResultObject();
     }
 
+    public function getListaAnnunciForUtente($codicefiscale): array
+    {
+        $query = "select * from annunci where utentecommissionante = '$codicefiscale'";
+        $annunci = $this->db->query($query)->getResultObject();
+        foreach ($annunci as $annuncio) {
+            $queryEsecutore = "select *, candidature.stato statoCandidature, candidature.codice codCand from candidature, utenti where utenti.codicefiscale = candidature.utentecommissionatario and annuncio = $annuncio->codice and candidature.stato = 1 or candidature.stato = 3 or candidature.stato = 4 or candidature.stato = 5";
+            $annuncio->esecutore = $this->db->query($queryEsecutore)->getFirstRow();
+            $annuncio->candidature = (new Candidature())->getAllCandidatureForAnnuncio($annuncio->codice);
+            if ($annuncio->esecutore != null) {
+                $annuncio->isPreferito = (new Preferiti())->where(['utentepreferito' => $annuncio->esecutore->codicefiscale])->first() != null;
+                $annuncio->isRecensito = (new Recensioni())->where(['utenterecensito' => $annuncio->esecutore->codicefiscale, 'annuncio' => $annuncio->codice])->first() != null;
+                $annuncio->isPagato = (new Pagamenti())->where(['annuncio' => $annuncio->codice])->first() != null;
+                $annuncio->isSegnalato = (new Segnalazioni())->where(['utentesegnalato' => $annuncio->esecutore->codicefiscale, 'annuncio' => $annuncio->codice])->first() != null;
+            }
+        }
+
+        return $annunci;
+    }
+
 }

@@ -49,7 +49,16 @@ class Annunci extends BaseController
      */
     public function candidati($codiceAnnuncio)
     {
+
         if (!is_null($this->request->getCookie('cod_user'))) {
+
+            $annuncio = new \App\Models\Annunci();
+            $annuncio = $annuncio->find($codiceAnnuncio);
+            if ($annuncio->utentecommissionante == $this->request->getCookie('cod_user')) {
+                $data['errori'] = "Non puoi candidarti per un tuo annuncio";
+                return $this->index($data);
+            }
+
             $candidature = new Candidature();
             $condition = [
                 'utentecommissionatario' => $this->request->getCookie('cod_user'),

@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\Segnalazioni;
 use App\Models\Utenti;
 
 class Admin extends BaseController
@@ -46,6 +47,18 @@ class Admin extends BaseController
         $utenti->save($utente);
         $data['messaggio'] = "Utente bannato correttamente";
         return $this->utenti($data);
+    }
+
+    public function segnalazioni(): string
+    {
+        $segnalazioni = new Segnalazioni();
+        $data['segnalazioni'] = $segnalazioni->getAllInfoSegnalazioni();
+
+        $header = new Header();
+        $content = $header->admin();
+        $content .= view('/admin/segnalazioni', $data);
+        $content .= view("/admin/footer");
+        return $content;
     }
 
 }
