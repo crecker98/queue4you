@@ -11,6 +11,7 @@ class Utenti extends Model
     protected $primaryKey = 'codicefiscale';
     protected $returnType = 'object';
     protected $allowedFields = ['codicefiscale', 'nome', 'cognome', 'email', 'password', 'wallet', 'email', 'telefono', 'foto', 'localitacompetenza', 'stato'];
+    protected $useAutoIncrement = false;
 
     public function getAllEsecutori(): array
     {
