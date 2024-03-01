@@ -153,7 +153,7 @@ class Profilo extends BaseController
             'cognome' => 'required|min_length[3]|max_length[20]',
             'email' => 'required|valid_email|is_unique[utenti.email,utenti.codicefiscale,' . $this->request->getPost('codicefiscale') . ']',
             'localitacompetenza' => 'required',
-            'telefono' => 'required|numeric|exact_length[10]',
+            'telefono' => 'required|exact_length[10]',
             'foto' => 'permit_empty|uploaded[foto]|max_size[foto,1024]|is_image[foto]',
         ];
 
