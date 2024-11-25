@@ -11,7 +11,7 @@ if (!isset($filtri)) {
         <form method="post">
             <div class="row" style="padding: 20px;">
                 <div class="col"><input class="form-control" type="number" name="prezzoMinimo"
-                                        value="<?= $filtri['prezzoMinimo'] ?>" placeholder="00.00"><span>Soglia di prezzo al minuto minima</span>
+                                        value="<?= $filtri['prezzoMinimo'] ?>" min="0" placeholder="00.00"><span>Soglia di prezzo al minuto minima</span>
                 </div>
                 <div class="col"><input class="form-control" type="date" value="<?= $filtri['dataInizio'] ?>"
                                         name="dataInizio"><span>Data inizio attività</span></div>
