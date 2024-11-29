@@ -1,6 +1,20 @@
 <header class="pt-5">
     <div class="container profile profile-view" id="profile">
         <div>
+        <?php if (isset($errori)) { ?>
+                            <div class="alert alert-danger" style="width: 100%" role="alert">
+                                <ul>
+                                    <?php foreach ($errori as $errore) { ?>
+                                        <li><?= $errore ?></li>
+                                    <?php } ?>
+                                </ul>
+                            </div>
+                        <?php } ?>
+                        <?php if (isset($messaggio)) { ?>
+                            <div class="alert alert-success" style="width: 100%" role="alert">
+                                <?= $messaggio ?>
+                            </div>
+                        <?php } ?>
             <div class="row profile-row">
                 <div class="col-md-4 relative">
                     <div>
@@ -94,20 +108,7 @@
                         </div>
                         <input class="form-control form-control" type="file" name="foto">
                         <input name="codicefiscale" type="hidden" value="<?= $utente->codicefiscale ?>">
-                        <?php if (isset($errori)) { ?>
-                            <div class="alert alert-danger" style="width: 100%" role="alert">
-                                <ul>
-                                    <?php foreach ($errori as $errore) { ?>
-                                        <li><?= $errore ?></li>
-                                    <?php } ?>
-                                </ul>
-                            </div>
-                        <?php } ?>
-                        <?php if (isset($messaggio)) { ?>
-                            <div class="alert alert-success" style="width: 100%" role="alert">
-                                <?= $messaggio ?>
-                            </div>
-                        <?php } ?>
+                        
                         <div class="row">
                             <div class="col-sm-12 col-md-6">
                                 <div class="form-group mb-3"><label class="form-label">Nome</label><input

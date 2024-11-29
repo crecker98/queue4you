@@ -21,3 +21,49 @@ in SYSTEMPATH/Database/BaseConnection.php on line 428.
  5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-29 09:34:34 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  database &quot;queue4you&quot; does not exist in /var/www/html/system/Database/Postgre/Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', '/var/www/html/s...', 72, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(72): pg_connect('host=pgsql port...')
+#2 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/Annunci.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#5 /var/www/html/app/Controllers/Home.php(14): App\Models\Annunci->getLast3Annunci()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Home->index()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 09:34:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  database &quot;queue4you&quot; does not exist
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Annunci.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM annunci where codice not in (select annuncio from candidature where stato = 1) ORDER BY dataorainizionecessita ASC LIMIT 3')
+ 3 APPPATH/Controllers/Home.php(14): App\Models\Annunci->getLast3Annunci()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-29 09:34:35 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  database &quot;queue4you&quot; does not exist in /var/www/html/system/Database/Postgre/Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', '/var/www/html/s...', 72, Array)
+#1 /var/www/html/system/Database/Postgre/Connection.php(72): pg_connect('host=pgsql port...')
+#2 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/Annunci.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#5 /var/www/html/app/Controllers/Home.php(14): App\Models\Annunci->getLast3Annunci()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\Home->index()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 09:34:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  database &quot;queue4you&quot; does not exist
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Annunci.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM annunci where codice not in (select annuncio from candidature where stato = 1) ORDER BY dataorainizionecessita ASC LIMIT 3')
+ 3 APPPATH/Controllers/Home.php(14): App\Models\Annunci->getLast3Annunci()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
