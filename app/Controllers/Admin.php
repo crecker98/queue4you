@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\Candidature;
 use App\Models\Segnalazioni;
 use App\Models\Utenti;
 
@@ -12,7 +13,11 @@ class Admin extends BaseController
     {
         $header = new Header();
         $content = $header->admin();
-        $content .= view('/admin/home');
+        $data['utenti'] = count((new Utenti())->findAll());
+        $data['segnalazioniAperte'] = count((new Segnalazioni())->findAll());
+        $data['attivitaInCorso'] = count((new Candidature())->where('stato', 3)->findAll());
+        $data['attivitaCompletate'] = count((new Candidature())->where('stato', 4)->findAll());
+        $content .= view('/admin/home', $data);
         $content .= view("/admin/footer");
         return $content;
     }

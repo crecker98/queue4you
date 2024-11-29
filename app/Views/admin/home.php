@@ -14,7 +14,7 @@
                     </svg>
                     <h5 class="fw-bold mb-0 ms-2">Utenti registrati</h5>
                 </div>
-                <p class="text-muted my-3">xx</p>
+                <p class="text-muted my-3"><?=$utenti?></p>
             </div>
             <div class="col text-center text-md-start">
                 <div class="d-flex justify-content-center align-items-center justify-content-md-start">
@@ -28,7 +28,7 @@
                     </svg>
                     <h5 class="fw-bold mb-0 ms-2"><strong>Attività in corso nel giorno</strong></h5>
                 </div>
-                <p class="text-muted my-3">xx</p>
+                <p class="text-muted my-3"><?=$attivitaInCorso?></p>
             </div>
             <div class="col text-center text-md-start">
                 <div class="d-flex justify-content-center align-items-center justify-content-md-start">
@@ -42,7 +42,7 @@
                     </svg>
                     <h5 class="fw-bold mb-0 ms-2"><strong>Numero attività completate</strong></h5>
                 </div>
-                <p class="text-muted my-3">cc</p>
+                <p class="text-muted my-3"><?=$attivitaCompletate?></p>
             </div>
             <div class="col text-center text-md-start" style="text-align: center;">
                 <div class="d-flex justify-content-center align-items-center justify-content-md-start">
@@ -56,7 +56,7 @@
                     </svg>
                     <h5 class="fw-bold mb-0 ms-2"><strong>Segnalazioni aperte</strong></h5>
                 </div>
-                <p class="text-muted my-3">xx</p>
+                <p class="text-muted my-3"><?=$segnalazioniAperte?></p>
             </div>
         </div>
     </div>
