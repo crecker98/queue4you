@@ -22,7 +22,9 @@
 <body>
 <nav class="navbar navbar-expand-md fixed-top navbar-shrink py-3 navbar-light" id="mainNav">
     <div class="container"><a class="navbar-brand d-flex align-items-center"
-                              href="<?= base_url() ?>"><span>Q4U</span></a>
+                              href="<?= base_url() ?>"><img class="img-fluid"
+                                                                src="<?= base_url("assets/img/_d00763d6-b800-4bbc-aba4-dcf497ee9999.jpg") ?>"
+                                                                style="width: 80px; margin: -10px!important; border-radius:20px"></a>
         <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span
                     class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navcol-1">

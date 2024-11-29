@@ -4,12 +4,12 @@
             <div class="col-md-8 text-center text-md-start mx-auto">
                 <div class="text-center">
                     <h1 class="display-4 fw-bold mb-5">QUEUE FOR YOU</h1>
-                    <p class="fs-5 text-muted mb-5">sottotitolo</p>
+                    <p class="fs-5 text-muted mb-5">Don’t worry about queue: we do it for you!!</p>
                 </div>
             </div>
             <div class="col-12 col-lg-10 mx-auto">
                 <div class="text-center position-relative"><img class="img-fluid"
-                                                                src="<?= base_url("assets/img/illustrations/meeting.svg") ?>"
+                                                                src="<?= base_url("assets/img/_2443fb7a-93d8-4619-a13b-36d99c0c0e77.jpg") ?>"
                                                                 style="width: 800px;"></div>
             </div>
         </div>
@@ -55,10 +55,10 @@
     <div class="container py-4 py-xl-5">
         <div class="row">
             <div class="col-md-6">
-                <h3 class="display-6 fw-bold pb-md-4">Mission</h3>
+                <h6 class="display-15 fw-bold pb-md-4"></h6>
             </div>
             <div class="col-md-6 pt-4">
-                <p class="text-muted mb-4">VISION</p>
+                <p class="text-muted mb-4">Immaginiamo un mondo in cui le persone possano dedicare più tempo alle cose che amano, mentre qualcun altro si occupa delle code e delle attese al loro posto.</p>
             </div>
         </div>
         <div class="row gy-4 gy-md-0">
@@ -76,11 +76,39 @@
                                     <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
                                     <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
                                 </svg>
-                                <h5 class="fw-bold mb-0 ms-2">festures 1</h5>
+                                <h5 class="fw-bold mb-0 ms-2">Massimizzare l’efficienza:</h5>
                             </div>
-                            <p class="text-muted my-3">Auctor nisi et, habitant gravida ad lectus posuere.</p>
+                            <p class="text-muted my-3">Vogliamo massimizzare l’efficienza delle attività quotidiane degli utenti. Che si tratti di code, prenotazioni o altre attese, Q4U interviene al loro posto, facendo guadagnare loro tempo prezioso..</p>
                         </div>
                         <div class="col text-center text-md-start">
+                            <div class="d-flex justify-content-center align-items-center justify-content-md-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
+                                     stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="icon icon-tabler icon-tabler-sun fs-3 text-primary bg-secondary">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                                    <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
+                                </svg>
+                                <h5 class="fw-bold mb-0 ms-2"><strong>Ridurre lo stress:</strong></h5>
+                            </div>
+                            <p class="text-muted my-3">Desideriamo ridurre lo stress legato alle attese. Fare la fila può essere frustrante, ma con Q4U, gli utenti possono rilassarsi e non preoccuparsi delle attese.</p>
+                        </div>
+                        <div class="col text-center text-md-start">
+                            <div class="d-flex justify-content-center align-items-center justify-content-md-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
+                                     stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="icon icon-tabler icon-tabler-sun fs-3 text-primary bg-secondary">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                                    <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
+                                </svg>
+                                <h5 class="fw-bold mb-0 ms-2"><strong>Risparmiare tempo prezioso:</strong></h5>
+                            </div>
+                            <p class="text-muted my-3">La nostra app si impegna a salvare i momenti preziosi degli utenti. Gestendo le code, restituiamo alle persone istanti che possono dedicare ai propri cari, alle passioni o semplicemente al relax.</p>
+                        </div>
+                        <!--<div class="col text-center text-md-start">
                             <div class="d-flex justify-content-center align-items-center justify-content-md-start">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
                                      stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
@@ -93,35 +121,7 @@
                                 <h5 class="fw-bold mb-0 ms-2"><strong>festures 1</strong></h5>
                             </div>
                             <p class="text-muted my-3">Auctor nisi et, habitant gravida ad lectus posuere.</p>
-                        </div>
-                        <div class="col text-center text-md-start">
-                            <div class="d-flex justify-content-center align-items-center justify-content-md-start">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
-                                     stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
-                                     stroke-linejoin="round"
-                                     class="icon icon-tabler icon-tabler-sun fs-3 text-primary bg-secondary">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
-                                    <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
-                                </svg>
-                                <h5 class="fw-bold mb-0 ms-2"><strong>festures 1</strong></h5>
-                            </div>
-                            <p class="text-muted my-3">Auctor nisi et, habitant gravida ad lectus posuere.</p>
-                        </div>
-                        <div class="col text-center text-md-start">
-                            <div class="d-flex justify-content-center align-items-center justify-content-md-start">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
-                                     stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
-                                     stroke-linejoin="round"
-                                     class="icon icon-tabler icon-tabler-sun fs-3 text-primary bg-secondary">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
-                                    <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
-                                </svg>
-                                <h5 class="fw-bold mb-0 ms-2"><strong>festures 1</strong></h5>
-                            </div>
-                            <p class="text-muted my-3">Auctor nisi et, habitant gravida ad lectus posuere.</p>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
