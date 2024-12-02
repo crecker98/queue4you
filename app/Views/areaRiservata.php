@@ -412,12 +412,15 @@
                                                                             data-bs-dismiss="modal"></button>
                                                                 </div>
                                                                 <div class="modal-body">
+                                                                    <?php
+                                                                    if(!is_null($annuncio->esecutore)) { ?>
                                                                     <form id="segnalazioneForm"
                                                                           action="<?= base_url("areaRiservata/segnala/" . $annuncio->codice . "/" . $annuncio->esecutore->codicefiscale) ?>"
                                                                           method="post"><textarea
                                                                                 class="form-control" name="messaggio"
                                                                                 placeholder="Testo segnalazione"></textarea>
                                                                     </form>
+                                                                    <?php } ?>
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <button class="btn btn-light" type="button"
@@ -529,6 +532,8 @@
                                                                             data-bs-dismiss="modal"></button>
                                                                 </div>
                                                                 <div class="modal-body">
+                                                                    <?php
+                                                                    if(!is_null($annuncio->esecutore)) { ?>
                                                                     <form id="recensisci-id"
                                                                           action="<?= base_url('areaRiservata/recensisci/' . $annuncio->codice . "/" . $annuncio->esecutore->codicefiscale) ?>"
                                                                           method="post">
@@ -545,6 +550,7 @@
                                                                                            name="commento"
                                                                                            placeholder="Commento"></textarea>
                                                                     </form>
+                                                                    <?php } ?>
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <button class="btn btn-light" type="button"
