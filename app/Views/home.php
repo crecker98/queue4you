@@ -137,8 +137,7 @@
         <div class="row mb-2">
             <div class="col-md-8 col-xl-6 text-center mx-auto">
                 <h2 class="display-6 fw-bold mb-5"><span class="pb-3 underline">FAQ<br></span></h2>
-                <p class="text-muted mb-5">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis
-                    nostra nunc. Vestibulum dui eget ultrices.</p>
+                <p class="text-muted mb-5">Il sito ti permette di evitare file delegando compiti e servizi.  Potrai pubblicare un annuncio, consentendo ad altri di candidarsi per svolgere ciò che non vuoi o non puoi fare tu.</p>
             </div>
         </div>
         <div class="row mb-2">
@@ -148,15 +147,12 @@
                         <h2 class="accordion-header" role="tab">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#accordion-1 .item-1" aria-expanded="false"
-                                    aria-controls="accordion-1 .item-1">Aenean arcu euismod aliquam, volutpat consequat?
+                                    aria-controls="accordion-1 .item-1">Il sito ti permette di evitare file delegando compiti e servizi.  Potrai pubblicare un annuncio, consentendo ad altri di candidarsi per svolgere ciò che non vuoi o non puoi fare tu.
                             </button>
                         </h2>
                         <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-1">
                             <div class="accordion-body">
-                                <p>Maecenas diam volutpat, erat quis enim cras lobortis vivamus donec tempor. Congue
-                                    ultrices donec turpis vivamus. Laoreet aenean metus, mi nunc massa feugiat duis.
-                                    Pharetra erat consequat purus curae quisque, etiam accumsan class.</p>
-                                <p class="mb-0">Commodo rutrum quisque curabitur habitasse, suspendisse etiam.</p>
+                                <p>Q4U è un sito in cui gli utenti possono postare richieste di servizi, e altri utenti possono prendere il loro posto in fila o svolgere il servizio al loro posto.</p>
                             </div>
                         </div>
                     </div>
@@ -164,15 +160,12 @@
                         <h2 class="accordion-header" role="tab">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#accordion-1 .item-2" aria-expanded="false"
-                                    aria-controls="accordion-1 .item-2">Lorem quam erat placerat mollis, rhoncus
-                                senectus?
+                                    aria-controls="accordion-1 .item-2">Come funziona il sistema di tariffa al minuto?
                             </button>
                         </h2>
                         <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
                             <div class="accordion-body">
-                                <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio,
-                                    dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at
-                                    eget metus.</p>
+                                <p class="mb-0">I committenti pagano per i servizi in base al tempo effettivo impiegato, dopo aver prestabilito la tariffa al minuto.</p>
                             </div>
                         </div>
                     </div>
@@ -180,15 +173,125 @@
                         <h2 class="accordion-header" role="tab">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#accordion-1 .item-3" aria-expanded="false"
-                                    aria-controls="accordion-1 .item-3">Iaculis accumsan id, facilisis proin ipsum velit
-                                neque?
+                                    aria-controls="accordion-1 .item-3">Quali tipi di servizi sono disponibili su Q4U?
                             </button>
                         </h2>
                         <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
                             <div class="accordion-body">
-                                <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio,
-                                    dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at
-                                    eget metus.</p>
+                                <p class="mb-0">Il sito accoglie una vasta gamma di richieste di servizi, dalle code in attesa ai servizi di consegna e altro ancora.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" role="tab">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion-1 .item-3" aria-expanded="false"
+                                    aria-controls="accordion-1 .item-3">Come posso registrarmi su Q4U?
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="mb-0">Per registrarti, visita il sito ufficiale di Q4U e segui le istruzioni per creare un account.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" role="tab">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion-1 .item-3" aria-expanded="false"
+                                    aria-controls="accordion-1 .item-3">Quali metodi di pagamento accetta Q4U?
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="mb-0">Q4U accetta pagamenti tramite il tuo portafoglio personale che potrai ricaricare nella sezione dedicata.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" role="tab">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion-1 .item-3" aria-expanded="false"
+                                    aria-controls="accordion-1 .item-3">Come funziona il sistema di valutazione degli utenti?
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="mb-0">Il sito accoglie una vasta gamma di richieste di servizi, dalle code in attesa ai servizi di consegna e altro ancora.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" role="tab">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion-1 .item-3" aria-expanded="false"
+                                    aria-controls="accordion-1 .item-3">Posso offrire servizi su Q4U? 
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="mb-0">ssolutamente! Gli utenti possono registrarsi come fornitori di servizi e rispondere alle richieste degli altri utenti.</p>
+                            </div>
+                        </div>
+                    </div><div class="accordion-item">
+                        <h2 class="accordion-header" role="tab">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion-1 .item-3" aria-expanded="false"
+                                    aria-controls="accordion-1 .item-3">Posso vedere le recensioni degli altri utenti prima di accettare un servizio?
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="mb-0">Sì, gli utenti possono visualizzare le recensioni e le valutazioni degli altri utenti prima di prendere una decisione.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" role="tab">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion-1 .item-3" aria-expanded="false"
+                                    aria-controls="accordion-1 .item-3">Qual è il limite di tempo per completare un’attività?
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="mb-0">Il committente dell’attività stabilirà entro quale termine l’attività deve essere svolta.</p>
+                            </div>
+                        </div>
+                    </div><div class="accordion-item">
+                        <h2 class="accordion-header" role="tab">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion-1 .item-3" aria-expanded="false"
+                                    aria-controls="accordion-1 .item-3">Qual è il prezzo al minuto per candidarsi a un servizio?
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="mb-0">Ogni annuncio al quale ti candidi presenterà il prezzo al minuto, in modo che tu possa essere informato.</p>
+                            </div>
+                        </div>
+                    </div><div class="accordion-item">
+                        <h2 class="accordion-header" role="tab">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion-1 .item-3" aria-expanded="false"
+                                    aria-controls="accordion-1 .item-3">Cosa posso fare con un utente che si comporta male?
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="mb-0">È sufficiente segnalare l’utente specificando le motivazioni, e gli amministratori si occuperanno della questione.</p>
+                            </div>
+                        </div>
+                    </div><div class="accordion-item">
+                        <h2 class="accordion-header" role="tab">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion-1 .item-3" aria-expanded="false"
+                                    aria-controls="accordion-1 .item-3">Quali lingue sono supportate sulla piattaforma?
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="mb-0">Al momento Q4U supporta solo l’italiano.</p>
                             </div>
                         </div>
                     </div>
